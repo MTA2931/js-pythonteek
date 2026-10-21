@@ -75,14 +75,30 @@
 
 // --------------------------------------------------------------
 
-const user = {
-    name: "ali" , age: 26
-};
+// const user = {
+//     name: "ali" , age: 26
+// };
 
-const update_user = {
-    ...user, city: "Tehran"
-};
+// const update_user = {
+//     ...user, city: "Tehran"
+// };
 
-console.log(update_user)
+// console.log(update_user)
 
 // --------------------------------------------------------------
+
+const personal = {
+    name: 'ali' , age: 26
+};
+
+const location = {
+    country: "iran" , city: "mashhad"
+};
+
+const profile = {
+    ...personal , ...location
+};
+
+console.log(personal);
+console.log(location);
+console.log(profile);
