@@ -129,3 +129,23 @@
 
 // -----------------------------------------------------
 
+// let username = ""
+// const displayName = username ? username : "Unknown user"
+
+// console.log(displayName)
+
+// Output:
+// Unknown user
+
+// -----------------------------------------------------
+
+// const username = "Sara"
+// const isAdmin = true
+// const massage = `Welcome ${username}, ${isAdmin ? "u are an admin." : "u are not admin."} `;
+
+// console.log(massage)
+
+// Output:
+// Welcome Sara, u are an admin.
+
+// -----------------------------------------------------
