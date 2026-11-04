@@ -1,6 +1,11 @@
 
 
-const isDarkMode = true;
-const theme = isDarkMode ? "dark" : "light"
+// console.log(Boolean(""))
+// console.log(Boolean("Hello"))
+// console.log(Boolean(0))
+// console.log(Boolean(10))
 
-console.log(theme)
+// -----------------------------------------------------
+
+const result = "hello" || "goodbye"
+console.log(result)
