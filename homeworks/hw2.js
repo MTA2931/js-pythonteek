@@ -15,9 +15,7 @@ const student = {
   score: 18
 };
 
-const message = `Hello ${student.name}! Your score is ${student.score}. ${
-  student.score >= 10 ? "You passed!" : "You failed!"
-}`;
+const message = `Hello ${student.name}! Your score is ${student.score}. ${student.score >= 10 ? "You passed!" : "You failed!"}`;
 
 console.log(message);
 
