@@ -45,3 +45,23 @@
 
 // ========================================================
 
+// let numbers = [10 , 20 , 30]
+
+// let result = numbers.map(function(num) {return String(num)});
+
+// console.log(result)
+// console.log(numbers)
+// console.log(typeof numbers)
+// console.log(typeof result)
+// console.log(typeof numbers[0])
+// console.log(typeof result[0])
+
+// Output:
+// [ '10', '20', '30' ]
+// [ 10, 20, 30 ]
+// object
+// object
+// number
+// string
+
+// ========================================================
