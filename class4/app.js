@@ -65,3 +65,17 @@
 // string
 
 // ========================================================
+
+// let students = [
+//     {name: "Mani" , age: 15},
+//     {name: "Arash" , age: 24},
+//     {name: "Reza" , age: 37}
+// ]
+
+// let names =  students.map(function(student) {
+//     return student.name
+// })
+
+// console.log(names)
+
+// Output: [ 'Mani', 'Arash', 'Reza' ]
