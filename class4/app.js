@@ -131,3 +131,20 @@
 
 // ========================================================
 
+// let numbers = [1 , 2 , 3]
+
+// let result = numbers.map((num) => {return num * 2})
+
+// console.log(result)
+
+// Output: [ 2, 4, 6 ]
+
+// ========================================================
+
+// let numbers = [1 , 2 , 3]
+
+// let result = numbers.map(num => num * 2)
+
+// console.log(result)
+
+// Output: [ 2, 4, 6 ]
