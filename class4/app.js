@@ -30,3 +30,18 @@
 
 // ========================================================
 
+// let names = ["Ali" , "Sara" , "Arash" , "Mohammad"];
+
+// let result = names.map(function(name, index) {
+//     return index + "_" + name
+// });
+
+// console.log(names)
+// console.log(result)
+
+// Output: 
+// [ 'Ali', 'Sara', 'Arash', 'Mohammad' ]
+// [ '0_Ali', '1_Sara', '2_Arash', '3_Mohammad' ]
+
+// ========================================================
+
