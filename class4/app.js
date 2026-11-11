@@ -69,7 +69,7 @@
 // let students = [
 //     {name: "Mani" , age: 15},
 //     {name: "Arash" , age: 24},
-//     {name: "Reza" , age: 37}
+//     {name: "Reza" , age: 7}
 // ]
 
 // let names =  students.map(function(student) {
@@ -79,3 +79,24 @@
 // console.log(names)
 
 // Output: [ 'Mani', 'Arash', 'Reza' ]
+
+// ========================================================
+
+// let students = [
+//     {name: "Mani" , age: 15},
+//     {name: "Arash" , age: 24},
+//     {name: "Reza" , age: 7}
+// ]
+
+// let newStudents =  students.map(function(student) {
+//     return {...student , passed: student.score >= 10}
+// })
+
+// console.log(newStudents)
+
+// Output:
+// [
+//   { name: 'Mani', age: 15, passed: false },
+//   { name: 'Arash', age: 24, passed: false },
+//   { name: 'Reza', age: 7, passed: false }
+// ]
