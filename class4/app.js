@@ -100,3 +100,34 @@
 //   { name: 'Arash', score: 20, passed: true },
 //   { name: 'Reza', score: 7, passed: false }
 // ]
+
+// ========================================================
+
+// let sales = [100 , 200 , 300]
+
+// let total = sales.reduce(function(sum , value) {return sum + value} , 0)
+
+// console.log(total)
+
+// ========================================================
+
+// let numbers = [1 , 2 , 3]
+
+// let result = numbers.map(function(num) {return num * 2})
+
+// console.log(result)
+
+// Output: [ 2, 4, 6 ]
+
+// ========================================================
+
+// let numbers = [1 , 2 , 3]
+
+// let result = numbers.forEach(function(num) {return num * 2})
+
+// console.log(result)
+
+// Output: undefined
+
+// ========================================================
+
