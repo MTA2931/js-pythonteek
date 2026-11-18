@@ -67,14 +67,24 @@
 
 // ===============================================
 
-let data = [
-    "Ali",
-    "",
-    null,
-    "Sara",
-    undefined,
-    "Reza",
-    0,
-    false
-];
+// let data = [
+//     "Ali",
+//     "",
+//     null,
+//     "Sara",
+//     undefined,
+//     "Reza",
+//     0,
+//     false
+// ];
+
+// let result = data.filter(function(item) {
+//     return Boolean(item)
+// });
+
+// console.log(result)
+
+// Output: [ 'Ali', 'Sara', 'Reza' ]
+
+// ===============================================
 
