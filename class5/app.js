@@ -35,3 +35,46 @@
 // Output: [ 12, 20, 15, 25 ]
 
 // ===============================================
+
+// let names = ["Ali" , "Mohammad" , "Sara" , "Reza" , "Sepehr"];
+
+// let result = names.filter(function(name) {
+//     return name.length > 5
+// });
+
+// console.log(result);
+
+// Output: [ 'Mohammad', 'Sepehr' ]
+
+// ===============================================
+
+// let students = [
+//     {name: "Amir" , score: 14},
+//     {name: "Arash" , score: 20},
+//     {name: "Sara" , score: 18},
+//     {name: "Reza" , score: 8},
+//     {name: "Ali" , score: 12},
+//     {name: "Mohammad" , score: 6},
+// ];
+
+// let result = students.filter(function(st) {
+//     return st.score > 15
+// });
+
+// console.log(result)
+
+// Output: [ { name: 'Arash', score: 20 }, { name: 'Sara', score: 18 } ]
+
+// ===============================================
+
+let data = [
+    "Ali",
+    "",
+    null,
+    "Sara",
+    undefined,
+    "Reza",
+    0,
+    false
+];
+
