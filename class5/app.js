@@ -88,17 +88,19 @@
 
 // ===============================================
 
-let products = [
-    {name: "Mouse", price: 300000},
-    {name: "Keyboard", price: 800000},
-    {name: "Monitor", price: 6000000},
-    {name: "USB", price: 200000}
-];
+// let products = [
+//     {name: "Mouse", price: 300000},
+//     {name: "Keyboard", price: 800000},
+//     {name: "Monitor", price: 6000000},
+//     {name: "USB", price: 200000}
+// ];
 
-let result = products.filter(function(product) {
-    return product.price < 500000
-}).map(function(product) {
-    return product.name
-});
+// let result = products.filter(function(product) {
+//     return product.price < 500000
+// }).map(function(product) {
+//     return product.name
+// });
 
-console.log(result)
+// console.log(result)
+
+// Output: [ 'Mouse', 'USB' ]
